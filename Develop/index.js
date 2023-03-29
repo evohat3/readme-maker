@@ -41,7 +41,7 @@ const generateMarkdown = require('./utils/generateMarkdown')
     {
         type: 'confirm',
         name: 'install',
-        message: '(to enter the steps it takes to install press enter)'
+        message: 'installation guide in 3 steps (press enter to start)'
     },
     {
         type: 'input',
@@ -71,7 +71,7 @@ const generateMarkdown = require('./utils/generateMarkdown')
     {
         type: 'input',
         name: 'useimg',
-        message: 'provide link or filepath to screenshot of example'
+        message: 'provide direct link for the screenshot of the example'
     },
     {
         type: 'input',
@@ -87,6 +87,12 @@ const generateMarkdown = require('./utils/generateMarkdown')
         type: 'input',
         name: 'badge',
         message: 'enter your badge link'
+    },
+    {
+        type: 'confirm',
+        name: 'features',
+        message: 'Feature section give 3 features (press enter to start)'
+
     },
     {
         type: 'input',

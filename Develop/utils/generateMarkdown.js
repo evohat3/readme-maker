@@ -69,7 +69,7 @@ function generateMarkdown(an) {
   * [Installation](#installation)
   * [Usage](#usage)
   * [Credits](#credits)
-  * [Badges](#badges)
+
   * [Features](#features)
   * [How to Contribute](#how-to-contribute)
   * [Tests](#tests)
@@ -77,13 +77,15 @@ function generateMarkdown(an) {
       
     
 
-  ![alt text](${renderLicenseBadge(an)})   
- [${an.license} LINK](${renderLicenseLink(an)})
+  ![alt text](${renderLicenseBadge(an)})   ![alt text](${an.badge})   [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+
 
 
   ---
   ---
   ## Description
+  ---
+  ---
       
           What was the motivation for building this project?
           - ${an.desc1}
@@ -100,11 +102,11 @@ function generateMarkdown(an) {
           what did you learn in the building process?
           - ${an.desc4}
       
-  ---
-  ---
+
       
   ## Installation
-      
+  ---
+  ---      
   
       How to install
   
@@ -115,13 +117,13 @@ function generateMarkdown(an) {
       - Step 3: ${an.ins3}
       
       
-  ---
-  ---
+
   ## Usage
-      
+  ---
+  ---      
       How to use: 
       
-      - ![IMG](files://${an.useimg}) 
+![alt text](${an.useimg}) 
       
       
       
@@ -129,45 +131,38 @@ function generateMarkdown(an) {
       
       - ${an.useEx}
       
-  ---
-  ---
+
   ## Credits
-      
+  ---
+  ---     
       Collaborators - ${an.creditscol}
       
       Tech - ${an.creditstec}
-      
-  ---
-  ---
-      
-  ## Badges
-  ![alt text](${an.badge})     
-      
-  ---
-  ---
+
   ## Features
- 
+  ---
+  ---
  * ${an.feature1}
   
  * ${an.feature2}
   
  * ${an.feature3}
 
-  ---
-  ---
   ## How to Contribute
-      
+  ---
+  ---     
  *  ${an.contrib}     
-  ---
-  ---
-  ## Tests
-* ${an.test}
-  
-  ---
-  ---   
-  ## License 
-      
 
+  ## Tests
+  ---
+  ---
+* ${an.test}
+   
+  ## License 
+  ---
+  ---    
+
+  *  [${an.license} LINK](${renderLicenseLink(an)})
 
     ${renderLicenseSection(an)}
 

@@ -110,3 +110,4 @@ dist
 package.json
 package-lock.json
 .vscode
+.DS_Store

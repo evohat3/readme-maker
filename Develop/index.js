@@ -65,13 +65,18 @@ const generateMarkdown = require('./utils/generateMarkdown')
     },
     {
         type: 'input',
-        name: 'useEx',
-        message: 'give an example of usage'
+        name: 'eximg',
+        message: 'provide a Screenshot link of an example for how to use this app'
     },
     {
         type: 'input',
-        name: 'useimg',
-        message: 'provide direct link for the screenshot of the example'
+        name: 'usevid',
+        message: 'provide direct link for the screenshot or video of the example'
+    },
+    {
+        type: 'input',
+        name: 'creditsgit',
+        message: 'what is your github repo link? (credits)'
     },
     {
         type: 'input',
@@ -125,7 +130,6 @@ const generateMarkdown = require('./utils/generateMarkdown')
         message: 'how do we test this code?'
 
     },
-
     {
             type: 'list',
             name: 'license',
@@ -140,7 +144,7 @@ const generateMarkdown = require('./utils/generateMarkdown')
  function init() {
     inq.prompt(quest).then((an) => {
 
-        file.writeFile('README.md', generateMarkdown(an), (err) => {
+        file.writeFile('../README.md', generateMarkdown(an), (err) => {
             if (err) {
               console.error(err);
             } else {

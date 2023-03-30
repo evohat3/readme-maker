@@ -52,7 +52,6 @@ return `${license.GNU}`;
 
 if(an.license == 'NONE')
 return `${license.none}`;
-
 } 
 
 
@@ -120,23 +119,23 @@ function generateMarkdown(an) {
   ## Usage
   ---
   ---      
-      How to use: 
+### *How to use*
+#### ${an.use}
       
-![alt text](${an.useimg}) 
-      
-      
-      
-      - ${an.use}
-      
-      - ${an.useEx}
-      
+![ScreenShot](${an.eximg})
+
+### [Link to tutorial here](${an.usevid}) 
+
+
 
   ## Credits
   ---
   ---     
-      Collaborators - ${an.creditscol}
+        Github Repo -  ![GITHUB](${an.creditsgit})
+
+        Collaborators - ${an.creditscol}
       
-      Tech - ${an.creditstec}
+        Tech - ${an.creditstec}
 
   ## Features
   ---
@@ -157,7 +156,8 @@ function generateMarkdown(an) {
   ---
 * ${an.test}
    
-  ## License 
+  
+## License 
   ---
   ---    
 

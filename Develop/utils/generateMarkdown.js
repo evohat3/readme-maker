@@ -59,10 +59,10 @@ return `${license.none}`;
 //  Create a function to generate markdown for README
 function generateMarkdown(an) {
   return ` 
-  # ${an.title}
-  ---
-  ---
-  ## Table of Contents 
+# ${an.title}
+---
+---
+## Table of Contents 
       
   * [Description](#description)
   * [Installation](#installation)
@@ -79,11 +79,11 @@ function generateMarkdown(an) {
 
 
 
-  ---
-  ---
-  ## Description
-  ---
-  ---
+---
+---
+## Description
+---
+---
       
           What was the motivation for building this project?
           - ${an.desc1}
@@ -102,7 +102,7 @@ function generateMarkdown(an) {
       
 
       
-  ## Installation
+## Installation
   ---
   ---      
   
@@ -116,9 +116,9 @@ function generateMarkdown(an) {
       
       
 
-  ## Usage
-  ---
-  ---      
+## Usage
+---
+---      
 ### *How to use*
 #### ${an.use}
       
@@ -128,38 +128,47 @@ function generateMarkdown(an) {
 
 
 
-  ## Credits
-  ---
-  ---     
-        Github Repo -  ![GITHUB](${an.creditsgit})
+## Credits
+---
+---     
+Github Repo
+* [${an.gituser}](${an.creditsgit})
 
-        Collaborators - ${an.creditscol}
+Collaborators
+* ${an.creditscol}
       
-        Tech - ${an.creditstec}
+Tech
+* ${an.creditstec}
 
-  ## Features
-  ---
-  ---
+## Features
+---
+---
  * ${an.feature1}
   
  * ${an.feature2}
   
  * ${an.feature3}
 
-  ## How to Contribute
-  ---
-  ---     
+## How to Contribute
+---
+---     
  *  ${an.contrib}     
 
-  ## Tests
-  ---
-  ---
+## Tests
+---
+---
 * ${an.test}
+
+##  Questions
+---
+---
+
+contact me at - ${an.email}
    
   
 ## License 
-  ---
-  ---    
+---
+---    
 
   *  [${an.license} LINK](${renderLicenseLink(an)})
 

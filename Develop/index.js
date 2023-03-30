@@ -75,6 +75,11 @@ const generateMarkdown = require('./utils/generateMarkdown')
     },
     {
         type: 'input',
+        name: 'gituser',
+        message: 'what is your github username? (credits)'
+    },
+    {
+        type: 'input',
         name: 'creditsgit',
         message: 'what is your github repo link? (credits)'
     },
@@ -130,6 +135,12 @@ const generateMarkdown = require('./utils/generateMarkdown')
         message: 'how do we test this code?'
 
     },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'if anyone has questions what is your email? (questions)'
+    },
+
     {
             type: 'list',
             name: 'license',

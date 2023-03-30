@@ -1,8 +1,8 @@
  
-  # README-Generator
-  ---
-  ---
-  ## Table of Contents 
+# README-Generator
+---
+---
+## Table of Contents 
       
   * [Description](#description)
   * [Installation](#installation)
@@ -19,11 +19,11 @@
 
 
 
-  ---
-  ---
-  ## Description
-  ---
-  ---
+---
+---
+## Description
+---
+---
       
           What was the motivation for building this project?
           - to SHAVE and SAVE precious time!
@@ -42,7 +42,7 @@
       
 
       
-  ## Installation
+## Installation
   ---
   ---      
   
@@ -56,9 +56,9 @@
       
       
 
-  ## Usage
-  ---
-  ---      
+## Usage
+---
+---      
 ### *How to use*
 #### when prompted answer all the questions and you will recieve a PROFESSTIONAL README!
       
@@ -68,38 +68,47 @@
 
 
 
-  ## Credits
-  ---
-  ---     
-        Github Repo -  ![GITHUB](https://github.com/evohat3/readme-maker)
+## Credits
+---
+---     
+Github Repo
+* [evohat3](https://github.com/evohat3/readme-maker)
 
-        Collaborators - n/a
+Collaborators
+* n/a
       
-        Tech - node.js, NPM, inquirer and fs
+Tech
+* node.js, NPM, inquirer and fs
 
-  ## Features
-  ---
-  ---
+## Features
+---
+---
  * Easy to install!
   
  * Easy to run!
   
  * Instant professional README!
 
-  ## How to Contribute
-  ---
-  ---     
+## How to Contribute
+---
+---     
  *  n/a     
 
-  ## Tests
-  ---
-  ---
+## Tests
+---
+---
 * open filepath to the terminal and type node index.js
+
+##  Questions
+---
+---
+
+contact me at - evolutionSK8boarder@gmail.com
    
   
 ## License 
-  ---
-  ---    
+---
+---    
 
   *  [MIT LINK](https://choosealicense.com/licenses/mit/)
 

@@ -64,7 +64,7 @@
       
 ![ScreenShot](https://i.imgur.com/OOdHyLv.jpg)
 
-### [Link to tutorial here](https://drive.google.com/file/d/15OnCU800X_F6uZri6qGzwSg1jfbsQo9j/view) 
+### [Link to tutorial here](https://drive.google.com/file/d/1JwFmcdZ6nugSl2RE2UvmTpLPt3BQmGYk/view) 
 
 
 
@@ -83,7 +83,7 @@ Tech
 ## Features
 ---
 ---
- * Easy to install!
+ * Easy to install
   
  * Easy to run!
   
